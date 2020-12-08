@@ -931,6 +931,7 @@ public class JavaCompiler {
                             enterTrees(stopIfError(CompileState.PARSE, parseFiles(sourceFileObjects))),
                             classnames);
             //参考,深入理解java虚拟机第二版,JAVAC编译章节
+            // Javac  JavaCompiler入口
             //1解析与填充符号表
             //1.1词法、语法解析parseFiles()
             //1.2填充符号表enterTrees()
